@@ -1,0 +1,21 @@
+# Dependency Directories
+# Node modules are large and should be installed by users, not committed.
+node_modules
+/client/node_modules
+
+# Build/Dist Artifacts
+# Files generated during the build process (e.g., 'npm run build')
+/client/dist
+/client/build
+/backend/dist
+
+# Logs and Debug
+*.log
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Environment Variables (CRITICAL for Security)
+.env
+/backend/.env  <-- Corrected Backend Path
