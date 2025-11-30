@@ -41,9 +41,14 @@ app.use('/api/messages', contactRoutes);
 app.use('/api/users', userRoutes);
 
 //start the server
-connectDB().then(() => {
+/*connectDB().then(() => {
     //define the port(3001)
     const PORT = process.env.PORT || 3001;
     //start the server
     app.listen(PORT, () => {console.log(`server running ${PORT}`);});
-});
+});*/
+
+connectDB()
+
+//export the app for vercel
+module.exports = app;
