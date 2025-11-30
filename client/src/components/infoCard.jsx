@@ -55,7 +55,7 @@ const InfoCard = () => {
                 borderRadius:'15px'
             }} >
                 <Row className="mt-3 text-center">
-                    <h2 className='skill-title'>Skills and Technologies</h2>
+                    <h2 className='skill-title border-bottom border-secondary pb-4 border-opacity-50 border-1'>Skills and Technologies</h2>
                     <Col md={3} className="text-center mt-5">
                         <h5>Languages</h5>
                         <ul className="d-flex flex-wrap gap-3 list-unstyled ">
