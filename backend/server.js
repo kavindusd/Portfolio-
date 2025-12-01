@@ -14,7 +14,7 @@ const userRoutes = require('./routes/userRoutes');
 
 
 //connect to mongodb
-const connectDB = async () => {
+/*const connectDB = async () => {
     try {
         const conn = await mongoose.connect(process.env.MONGO_URI);
         console.log(`mongodb connected: ${conn.connection.host}`);
@@ -23,7 +23,7 @@ const connectDB = async () => {
         console.log(error);
         process.exit(1);
     }
-}
+}*/
 
 //intialize the express app
 const app=express();
